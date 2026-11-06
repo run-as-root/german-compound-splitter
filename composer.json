@@ -1,0 +1,23 @@
+{
+  "name": "run-as-root/german-compound-splitter",
+  "description": "Pure-PHP splitter for German compound words (port of the CharSplit algorithm / charsplit-fst)",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0 || ^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RunAsRoot\\GermanCompoundSplitter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RunAsRoot\\GermanCompoundSplitter\\Test\\": "Test/"
+    }
+  }
+}
