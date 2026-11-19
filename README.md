@@ -7,6 +7,12 @@ It is a port of [charsplit-fst](https://pypi.org/project/charsplit-fst/) (Rust p
 implemented. The ngram probability data is read directly from the original `.fst` files, so results
 (including scores) are identical to the original library.
 
+## Installation
+
+```bash
+composer require run-as-root/german-compound-splitter
+```
+
 ## Requirements
 
 - PHP >= 8.2, `ext-mbstring`
@@ -63,5 +69,5 @@ vendor/bin/phpunit -c src/run-as-root/german-compound-splitter/phpunit.xml.dist
 
 ## License and attribution
 
-MIT. The `data/*.fst` files and the algorithm come from charsplit-fst 0.1.4 (MIT OR Apache-2.0, see
+MIT (see `LICENSE`). The `data/*.fst` files and the algorithm come from charsplit-fst 0.1.4 (MIT OR Apache-2.0, see
 `LICENSE-charsplit-fst-*`), which is based on CharSplit by Don Tuggener.
